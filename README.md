@@ -1,12 +1,13 @@
 # Secure Password Generator
 
-Este proyecto es un generador de contraseñas seguras escrito en Python. Genera una contraseña aleatoria de la longitud que elija el usuario, verifica su fortaleza y la copia al portapapeles para facilitar su uso.
+Este script es un generador de contraseñas seguras escrito en Python. Genera una contraseña aleatoria de la longitud que elija, (mínimo 8 caracteres). Luego verifica que tan fuerte es la contraseña generada por medio de una puntuación y la copia al portapapeles para facilitar su uso.
 
 ## Características
 
 - Genera contraseñas aleatorias de la longitud que elija el usuario.
 - Verifica la fortaleza de la contraseña generada utilizando la biblioteca zxcvbn.
 - Copia la contraseña generada al portapapeles para facilitar su uso.
+- La contraseña generada incliuye aleatoriamente letras mayúsculas, minúsculas, números y símbolos.
 
 ## Instalación
 
@@ -27,7 +28,7 @@ cd Secure-Password-Generator
 ### Crear y activar entorno virtual
 
 ```
-python3 -m venv venv
+python -m venv venv
 ```
 
 ```
