@@ -1,7 +1,8 @@
 import string
 import random
-import subprocess
 from zxcvbn import zxcvbn
+import pyperclip
+
 
 def generar_contrasena(longitud):
     """
@@ -39,7 +40,7 @@ contrasena = generar_contrasena(longitud)
 # Imprimir la contraseña generada
 print("La contraseña generada es: ", contrasena)
 # Copiar la contraseña al portapapeles
-subprocess.run("pbcopy", universal_newlines=True, input=contrasena)
+pyperclip.copy(contrasena)
 print("La contraseña se copió al portapapeles")
 
 score = verificar_fortaleza(contrasena)
