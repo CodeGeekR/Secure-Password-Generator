@@ -1,5 +1,7 @@
 # Secure Password Generator
 
+[![Python](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://www.python.org)
+
 Este script es un generador de contraseñas seguras escrito en Python. Genera una contraseña aleatoria de la longitud que elija, (mínimo 8 caracteres). Luego verifica que tan fuerte es la contraseña generada por medio de una puntuación y la copia al portapapeles para facilitar su uso.
 
 ## Características
